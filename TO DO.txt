@@ -1,0 +1,29 @@
+TO DO
+=====
+
+- get lots of errors when creating a new course because it's trying to read course dates that aren't there
+- final date calculator in the admin is not workingj
+- where do we use dates?
+	1. on course page
+	2. in sidebar widget
+	3. in menu when working out what courses to display
+- testing:
+	- dates save properly, including deleting date that are already saved
+	- all different ways of displaying the date work correctly
+	- multiple date blocks
+- make "all day" end time make more sense? should it be like 23:59 or something?
+- validation? how important is this now that fields are "readonly"???
+- what if people leave one of the fields empty?
+- need to escape user input. how important is this now that fields are "readonly"???
+- copying old date data into new table - sure this works ok?
+- warning that you might lose data when deleting a block?
+- delete the old date table and code?
+- when editing course, robot-only dates show when page is in mobile layout
+
+
+DONE
+====
+
+- clear out data when duplicating date block
+- screws up am/pm somehow when saving
+- deleting and re-saving dates every time the course is saved causes the id to increment every time. possibly this is bad.

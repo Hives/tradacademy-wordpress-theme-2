@@ -1,0 +1,75 @@
+#ta_initial_date_field {
+	display: none;
+}
+
+select.cmb_select_small {
+	width: 100px;
+	margin-right: 15px;
+}
+
+#_cmb_google_map {
+	width: 400px;
+	height: 300px;
+}
+
+/*
+*    Rules for date range meta box
+*/
+
+#ta_course_date_meta .date {
+    width: 200px;
+}
+
+#ta_course_date_meta .time {
+    width: 70px;
+}
+
+#ta_course_date_meta .hidden {
+    /*display: none;*/
+}
+
+.date-block {
+	margin-bottom: 12px;
+	border: 1px solid rgb(200, 200, 200);
+
+	-webkit-box-shadow: 6px 6px 6px 0px rgba(238,238,238,0.85);
+	-moz-box-shadow: 6px 6px 6px 0px rgba(238,238,238,0.85);
+	box-shadow: 6px 6px 6px 0px rgba(238,238,238,0.85);
+
+}
+
+.delete-this-date {
+	transition: visibility 0.2s, opacity 0.2s linear;
+}
+
+.date-block:only-child .delete-this-date {
+	visibility: hidden;
+	opacity: 0;
+}
+
+.date-block-heading {
+	padding: 10px;	
+	background-color: rgb(238, 238, 238);
+}
+
+.delete-this-date {
+	float: right;
+}
+
+.date-block-heading h3 {
+	display: inline;
+	font-size: inherit;
+	margin: 0;
+}
+
+.date-block-body {
+	padding: 10px;
+}
+
+#ta_course_date_meta .add-another-date {
+	padding: 6px 0;
+}
+
+.date-block input:read-only {
+	background-color: #fff;
+}
